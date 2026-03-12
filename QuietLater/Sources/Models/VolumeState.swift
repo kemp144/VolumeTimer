@@ -11,6 +11,8 @@ struct VolumeState: Equatable {
     /// A human-readable summary, e.g. "40%, unmuted".
     var displayString: String {
         let pct = Int((volume * 100).rounded())
-        return isMuted ? "\(pct)%, muted" : "\(pct)%"
+        return isMuted
+            ? String(format: NSLocalizedString("%ld%%, muted", comment: "Volume state: percentage with muted indicator, e.g. '40%, muted'"), pct)
+            : String(format: NSLocalizedString("%ld%%", comment: "Volume state: percentage only, e.g. '40%'"), pct)
     }
 }

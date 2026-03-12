@@ -28,7 +28,7 @@ struct TimerSectionView: View {
 
                 Picker("Action", selection: $vm.actionKind) {
                     ForEach(TimerActionKind.allCases) { kind in
-                        Text(kind.rawValue).tag(kind)
+                        Text(verbatim: kind.localizedTitle).tag(kind)
                     }
                 }
                 .pickerStyle(.radioGroup)
@@ -98,16 +98,27 @@ struct TimerSectionView: View {
 
     private var customDurationInput: some View {
         HStack(spacing: 8) {
-            Stepper(value: $vm.customMinutes, in: 1...600, step: 1) {
-                HStack {
-                    Text("Duration:")
-                    Text("\(vm.customMinutes) min")
-                        .foregroundStyle(.secondary)
-                        .monospacedDigit()
-                }
+            Text("Duration:")
+
+            TextField(
+                "",
+                value: $vm.customMinutes,
+                format: .number.grouping(.never)
+            )
+            .textFieldStyle(.roundedBorder)
+            .frame(width: 68)
+            .multilineTextAlignment(.trailing)
+            .onChange(of: vm.customMinutes) { newValue in
+                vm.customMinutes = min(600, max(1, newValue))
             }
+
+            Text(verbatim: NSLocalizedString("min", comment: "Duration unit label for custom minute entry"))
+                .foregroundStyle(.secondary)
+                .monospacedDigit()
+
+            Spacer()
         }
-        .accessibilityLabel("Custom duration: \(vm.customMinutes) minutes")
+        .accessibilityLabel(String(format: NSLocalizedString("Custom duration: %ld minutes", comment: "Accessibility label for custom duration stepper; %ld = minutes"), vm.customMinutes))
     }
 
     private var volumeTargetSlider: some View {
@@ -115,7 +126,7 @@ struct TimerSectionView: View {
             HStack {
                 Text("Target volume")
                 Spacer()
-                Text("\(Int(vm.targetVolumePercent.rounded()))%")
+                Text(verbatim: String(format: NSLocalizedString("%ld%%", comment: "Volume state: percentage only, e.g. '40%'"), Int(vm.targetVolumePercent.rounded())))
                     .foregroundStyle(.secondary)
                     .monospacedDigit()
                     .frame(width: 40, alignment: .trailing)
@@ -123,7 +134,7 @@ struct TimerSectionView: View {
             .font(.subheadline)
 
             Slider(value: $vm.targetVolumePercent, in: 0...100, step: 1)
-                .accessibilityLabel("Target volume: \(Int(vm.targetVolumePercent.rounded())) percent")
+                .accessibilityLabel(String(format: NSLocalizedString("Target volume: %ld percent", comment: "Accessibility label for target volume slider; %ld = percentage"), Int(vm.targetVolumePercent.rounded())))
         }
     }
 
@@ -133,11 +144,9 @@ struct TimerSectionView: View {
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
             Picker("Restore delay", selection: $vm.restoreDelayMinutes) {
-                Text("5 min").tag(5)
-                Text("10 min").tag(10)
-                Text("15 min").tag(15)
-                Text("30 min").tag(30)
-                Text("60 min").tag(60)
+                ForEach([5, 10, 15, 30, 60], id: \.self) { n in
+                    Text(verbatim: String(format: NSLocalizedString("%ld min", comment: "Duration display: whole minutes; %ld = number of minutes"), n)).tag(n)
+                }
             }
             .labelsHidden()
             .frame(width: 100)

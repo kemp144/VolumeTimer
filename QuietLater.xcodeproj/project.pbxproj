@@ -22,6 +22,7 @@
 		AA000000000000000000003C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000001E /* Assets.xcassets */; };
 		AA000000000000000000003D /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA000000000000000000001F /* CoreAudio.framework */; };
 		AA000000000000000000003E /* QuietLaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000020 /* QuietLaterTests.swift */; };
+		AA000000000000000000003F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000021 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		AA000000000000000000001E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA000000000000000000001F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		AA0000000000000000000020 /* QuietLaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuietLaterTests.swift; sourceTree = "<group>"; };
+		AA0000000000000000000021 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				AA000000000000000000001E /* Assets.xcassets */,
+				AA0000000000000000000021 /* Localizable.xcstrings */,
 				AA000000000000000000001C /* Info.plist */,
 				AA000000000000000000001D /* QuietLater.entitlements */,
 			);
@@ -233,8 +236,22 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				da,
+				de,
 				en,
+				es-ES,
+				fi,
+				fr,
+				it,
+				ja,
+				ko,
+				nb,
+				nl,
+				pt-PT,
+				sv,
 				Base,
+				zh-Hans,
+				zh-Hant,
 			);
 			mainGroup = AA0000000000000000000002;
 			productRefGroup = AA0000000000000000000003 /* Products */;
@@ -253,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA000000000000000000003C /* Assets.xcassets in Resources */,
+				AA000000000000000000003F /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

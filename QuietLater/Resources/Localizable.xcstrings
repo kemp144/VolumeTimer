@@ -1,0 +1,5438 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "%@ preset" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "forvalg: %@"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voreinstellung: %@"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "preajuste: %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "esiasetus: %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "préréglage %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "preset %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@のプリセット"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 프리셋"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "forvalg: %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "voorinstelling %@"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "predefinição %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "förval %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 预设"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 預設"
+          }
+        }
+      }
+    },
+    "%ld min" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld min"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld Min."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld min"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld min"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld min"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld min"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld分"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld분"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld min"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld min"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld min"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld min"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld分"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld分"
+          }
+        }
+      }
+    },
+    "%ld sec" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld sek."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld Sek."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld s"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld s"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld s"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld s"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld秒"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld초"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld sek."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld sec."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld s"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld sek."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld秒"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld秒"
+          }
+        }
+      }
+    },
+    "%ld%%" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld %"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld %%"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld %%"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld %"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld %%"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld%%"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld%%"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld%%"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld %"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld%%"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld%%"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld %%"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld%%"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld%%"
+          }
+        }
+      }
+    },
+    "%ld%%, muted" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld %, slået fra"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld %%, stumm"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld %%, silenciado"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld %, mykistetty"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld %%, coupé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld%%, disattivato"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld%%、消音"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld%%, 음소거됨"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld %, dempet"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld%%, gedempt"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld%%, sem som"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld %%, tyst"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld%%，已静音"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld%%，已靜音"
+          }
+        }
+      }
+    },
+    "%ldh" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld t"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld Std."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld h"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld t"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld h"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld h"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld時間"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld시간"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld t"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld u"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld h"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld h"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld小时"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld小時"
+          }
+        }
+      }
+    },
+    "%ldm" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld min"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld Min."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld min"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld min"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld min"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld min"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld分"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld분"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld min"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld min"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld min"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld min"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld分"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld分"
+          }
+        }
+      }
+    },
+    "A calm, focused utility for controlling your Mac's volume — now or after a timer." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et roligt og fokuseret værktøj til at styre lydstyrken på din Mac nu eller med en timer."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein ruhiges, fokussiertes Tool, das die Lautstärke deines Macs sofort oder per Timer steuert."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una utilidad tranquila y precisa para controlar el volumen de tu Mac ahora o con un temporizador."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rauhallinen ja viimeistelty apuohjelma Macin äänenvoimakkuuden säätöön heti tai ajastetusti."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un utilitaire calme et soigné pour gérer le volume de votre Mac, tout de suite ou avec un minuteur."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un'utility discreta e curata per controllare il volume del tuo Mac subito o con un timer."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Macの音量を今すぐ、またはタイマーで調整できる、落ち着いた使い心地のユーティリティです。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지금 바로 또는 타이머로 Mac 볼륨을 조절할 수 있는 차분하고 세련된 유틸리티입니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et rolig og fokusert verktøy for å styre volumet på Macen din nå eller med en timer."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een rustige, verfijnde app om het volume van je Mac nu of later met een timer te regelen."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um utilitário calmo e refinado para controlar o volume do seu Mac agora ou com um temporizador."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ett lugnt och genomtänkt verktyg för att styra volymen på din Mac nu eller med en timer."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一款安静、专注的实用工具，可立即或通过计时器控制你的 Mac 音量。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一款安靜、專注的工具，可立即或透過計時器控制你的 Mac 音量。"
+          }
+        }
+      }
+    },
+    "About QuietLater" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om QuietLater"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Über QuietLater"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acerca de QuietLater"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tietoja QuietLaterista"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À propos de QuietLater"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informazioni su QuietLater"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLaterについて"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater 정보"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om QuietLater"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Over QuietLater"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acerca do QuietLater"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om QuietLater"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关于 QuietLater"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關於 QuietLater"
+          }
+        }
+      }
+    },
+    "Action" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handling"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktion"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acción"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toiminto"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Action"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Azione"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アクション"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "동작"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handling"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actie"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ação"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åtgärd"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "操作"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "操作"
+          }
+        }
+      }
+    },
+    "After" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Efter"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nach"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Después de"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun aikaa on kulunut"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Après"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tra"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あと"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다음 시간 후"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daqui a"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Efter"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在此之后"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在此之後"
+          }
+        }
+      }
+    },
+    "Apply Now" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anvend nu"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jetzt anwenden"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplicar ahora"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä nyt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appliquer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Applica ora"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今すぐ適用"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지금 적용"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bruk nå"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu toepassen"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplicar agora"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använd nu"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即应用"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即套用"
+          }
+        }
+      }
+    },
+    "Bring back your original volume after a delay" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gendan din oprindelige lydstyrke efter en forsinkelse"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stellt die ursprüngliche Lautstärke nach einer Verzögerung wieder her"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recupera el volumen original después de una espera"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palauta alkuperäinen äänenvoimakkuus viiveen jälkeen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rétablit votre volume d'origine après un délai"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ripristina il volume originale dopo un ritardo"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "しばらくしてから元の音量に戻します"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "잠시 후 원래 볼륨으로 되돌립니다"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjenopprett det opprinnelige volumet etter en forsinkelse"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herstel het oorspronkelijke volume na een vertraging"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Repõe o volume original após um atraso"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återställ ursprunglig volym efter en stund"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "延迟后恢复原来的音量"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "延遲後恢復原本的音量"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuller"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbrechen"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peruuta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annulla"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャンセル"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "취소"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuleren"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
+        }
+      }
+    },
+    "Custom" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilpasset"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benutzerdefiniert"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personalizado"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oma"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personnalisé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personalizzato"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カスタム"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사용자 지정"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilpasset"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aangepast"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personalizado"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anpassad"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自定义"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自訂"
+          }
+        }
+      }
+    },
+    "Custom duration: %ld minutes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilpasset varighed: %ld minutter"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benutzerdefinierte Dauer: %ld Minuten"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duración personalizada: %ld minutos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mukautettu kesto: %ld minuuttia"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durée personnalisée : %ld minutes"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durata personalizzata: %ld minuti"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カスタム時間: %ld分"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사용자 지정 시간: %ld분"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilpasset varighet: %ld minutter"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aangepaste duur: %ld minuten"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duração personalizada: %ld minutos"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anpassad tid: %ld minuter"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自定义时长：%ld 分钟"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自訂時長：%ld 分鐘"
+          }
+        }
+      }
+    },
+    "Do it now" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gør det nu"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jetzt ausführen"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hazlo ahora"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tee nyt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Faire maintenant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fallo ora"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今すぐ実行"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지금 실행"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjør det nå"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu uitvoeren"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fazer agora"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gör det nu"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即执行"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即執行"
+          }
+        }
+      }
+    },
+    "Do this" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gør dette"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dann"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haz esto"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toimi näin"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puis"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poi fai questo"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "実行する内容"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 작업 실행"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjør dette"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doe dit"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fazer isto"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gör detta"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "执行此操作"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "執行此操作"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udført"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fertig"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hecho"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valmis"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fatto"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完了"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "완료"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferdig"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gereed"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concluído"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klar"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成"
+          }
+        }
+      }
+    },
+    "Duration:" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varighed:"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dauer:"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duración:"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kesto:"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durée :"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durata:"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "時間:"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "시간:"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varighet:"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duur:"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duração:"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varaktighet:"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "时长："
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "時長："
+          }
+        }
+      }
+    },
+    "Fade out in the last 30 seconds" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skru gradvist ned i de sidste 30 sekunder"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In den letzten 30 Sekunden ausblenden"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desvanecer en los últimos 30 segundos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Häivytä viimeisten 30 sekunnin aikana"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fondu sur les 30 dernières secondes"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dissolvi negli ultimi 30 secondi"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最後の30秒でフェードアウト"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "마지막 30초 동안 서서히 줄이기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fade ut de siste 30 sekundene"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laat in de laatste 30 seconden geleidelijk wegvallen"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reduzir gradualmente nos últimos 30 segundos"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tona ut under de sista 30 sekunderna"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在最后 30 秒内淡出"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在最後 30 秒內淡出"
+          }
+        }
+      }
+    },
+    "Fading out…" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fader ud…"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird ausgeblendet…"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desvaneciendo…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Häivytetään…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fondu en cours…"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dissolvenza in corso…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フェードアウト中…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "서서히 줄이는 중…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fader ut…"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wordt stil uitgezet…"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A reduzir gradualmente…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tonar ut…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在淡出…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在淡出…"
+          }
+        }
+      }
+    },
+    "Fading out… %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fader ud… %@"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird ausgeblendet… %@"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desvaneciendo… %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Häivytetään… %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fondu en cours… %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dissolvenza in corso… %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フェードアウト中… %@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "서서히 줄이는 중… %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fader ut… %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wordt stil uitgezet… %@"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A reduzir gradualmente… %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tonar ut… %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在淡出… %@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在淡出… %@"
+          }
+        }
+      }
+    },
+    "Gradually lower volume before the timer ends" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sænk lydstyrken gradvist før timeren slutter"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senkt die Lautstärke allmählich, bevor der Timer endet"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reduce el volumen gradualmente antes de que termine el temporizador"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laske äänenvoimakkuutta vähitellen ennen ajastimen päättymistä"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baisse progressivement le volume avant la fin du minuteur"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbassa gradualmente il volume prima della fine del timer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイマー終了前に音量をゆっくり下げます"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "타이머가 끝나기 전에 볼륨을 서서히 낮춥니다"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senk volumet gradvis før timeren er ferdig"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlaag het volume geleidelijk voordat de timer afloopt"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baixa gradualmente o volume antes de o temporizador terminar"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sänk volymen gradvis innan timern tar slut"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在计时结束前逐渐降低音量"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在計時結束前逐漸降低音量"
+          }
+        }
+      }
+    },
+    "Immediate volume: %ld percent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Øjeblikkelig lydstyrke: %ld procent"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sofortige Lautstärke: %ld Prozent"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volumen inmediato: %ld por ciento"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välitön äänenvoimakkuus: %ld prosenttia"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume immédiat : %ld pour cent"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume immediato: %ld percento"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今すぐの音量: %ldパーセント"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "즉시 볼륨: %ld퍼센트"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Umiddelbart volum: %ld prosent"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Direct volume: %ld procent"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume imediato: %ld por cento"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Direkt volym: %ld procent"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即音量：%ld%%"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即音量：%ld%%"
+          }
+        }
+      }
+    },
+    "Lower your volume, on time." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sænk lydstyrken på det rette tidspunkt."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leiser, genau zur richtigen Zeit."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baja el volumen en el momento justo."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laske äänenvoimakkuutta oikeaan aikaan."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baissez le volume au bon moment."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbassa il volume al momento giusto."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ちょうどいいタイミングで音量を下げます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "원하는 시간에 맞춰 볼륨을 낮추세요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senk volumet akkurat når du vil."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlaag het volume op het juiste moment."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baixe o volume no momento certo."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sänk volymen precis när du vill."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在合适的时候调低音量。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在合適的時間調低音量。"
+          }
+        }
+      }
+    },
+    "min" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "min"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Min."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "min"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "min"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "min"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "min"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "분"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "min"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "min"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "min"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "min"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分"
+          }
+        }
+      }
+    },
+    "Mute" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå lyden fra"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stummschalten"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silenciar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mykistä"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couper le son"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disattiva audio"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "消音"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "음소거"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå av lyden"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dempen"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silenciar"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tysta"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "静音"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "靜音"
+          }
+        }
+      }
+    },
+    "Mute Now" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå lyden fra nu"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jetzt stummschalten"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silenciar ahora"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mykistä nyt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couper maintenant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disattiva ora"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今すぐ消音"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지금 음소거"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå av lyden nå"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu dempen"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silenciar agora"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tysta nu"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即静音"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即靜音"
+          }
+        }
+      }
+    },
+    "Muted now." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyden er slået fra nu."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jetzt stummgeschaltet."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silenciado ahora."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mykistetty nyt."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son coupé."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio disattivato ora."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今すぐ消音しました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지금 음소거했습니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyden er slått av nå."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu gedempt."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silenciado agora."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tystat nu."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已立即静音。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已立即靜音。"
+          }
+        }
+      }
+    },
+    "Muted." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyden er slået fra."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stummgeschaltet."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silenciado."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mykistetty."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son coupé."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio disattivato."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "消音しました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "음소거되었습니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyden er slått av."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gedempt."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silenciado."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tystat."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已静音。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已靜音。"
+          }
+        }
+      }
+    },
+    "Muted. Volume will restore in %ld min." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyden er slået fra. Lydstyrken gendannes om %ld min."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stummgeschaltet. Die Lautstärke wird in %ld Min. wiederhergestellt."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silenciado. El volumen se restaurará en %ld min."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mykistetty. Äänenvoimakkuus palautetaan %ld min kuluttua."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son coupé. Le volume sera rétabli dans %ld min."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio disattivato. Il volume verrà ripristinato tra %ld min."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "消音しました。%ld分後に音量を戻します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "음소거되었습니다. %ld분 후에 볼륨을 복원합니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyden er slått av. Volumet gjenopprettes om %ld min."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gedempt. Het volume wordt over %ld min hersteld."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silenciado. O volume será reposto dentro de %ld min."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tystat. Volymen återställs om %ld min."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已静音。%ld 分钟后将恢复音量。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已靜音。%ld 分鐘後將恢復音量。"
+          }
+        }
+      }
+    },
+    "Mutes system audio immediately" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slår systemlyden fra med det samme"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schaltet den Systemton sofort stumm"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silencia el audio del sistema inmediatamente"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mykistää järjestelmän äänen heti"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coupe immédiatement le son du système"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disattiva subito l'audio di sistema"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "システム音をすぐに消音します"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "시스템 오디오를 즉시 음소거합니다"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slår av systemlyden med en gang"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dempt het systeemgeluid direct"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silencia o áudio do sistema imediatamente"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tystar systemljudet direkt"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即将系统音频静音"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即將系統音訊靜音"
+          }
+        }
+      }
+    },
+    "Options" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valg"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Optionen"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opciones"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valinnat"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Options"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opzioni"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "オプション"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "옵션"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valg"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opties"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opções"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alternativ"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选项"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選項"
+          }
+        }
+      }
+    },
+    "Please enter a valid duration." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indtast en gyldig varighed."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitte gib eine gültige Dauer ein."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Introduce una duración válida."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anna kelvollinen kesto."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saisissez une durée valide."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inserisci una durata valida."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "有効な時間を入力してください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "올바른 시간을 입력해 주세요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv inn en gyldig varighet."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voer een geldige duur in."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Introduza uma duração válida."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ange en giltig tid."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请输入有效的时长。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請輸入有效的時長。"
+          }
+        }
+      }
+    },
+    "QuietLater lowers your volume, on time." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater sænker lydstyrken på det rette tidspunkt."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater senkt deine Lautstärke genau zur richtigen Zeit."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater baja el volumen en el momento justo."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater laskee äänenvoimakkuutta oikeaan aikaan."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater baisse le volume au bon moment."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater abbassa il volume al momento giusto."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLaterがちょうどいいタイミングで音量を下げます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater가 원하는 시간에 맞춰 볼륨을 낮춥니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater senker volumet akkurat når du vil."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater verlaagt het volume op het juiste moment."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O QuietLater baixa o volume no momento certo."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater sänker volymen precis när du vill."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater 会在恰当的时候调低音量。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater 會在恰當的時間調低音量。"
+          }
+        }
+      }
+    },
+    "QuietLater will mute your Mac in %1$@ (at %2$@) and restore volume %3$ld min later." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater slår lyden fra på din Mac om %1$@ (kl. %2$@) og gendanner lydstyrken %3$ld min senere."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater schaltet deinen Mac in %1$@ stumm (um %2$@) und stellt die Lautstärke %3$ld Min. später wieder her."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater silenciará tu Mac dentro de %1$@ (a las %2$@) y restaurará el volumen %3$ld min después."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater mykistää Macisi %1$@ kuluttua (klo %2$@) ja palauttaa äänenvoimakkuuden %3$ld min myöhemmin."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater coupera le son de votre Mac dans %1$@ (à %2$@) et rétablira le volume %3$ld min plus tard."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater disattiverà l'audio del tuo Mac tra %1$@ (alle %2$@) e ripristinerà il volume %3$ld min dopo."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLaterは%1$@後（%2$@）にMacを消音し、%3$ld分後に音量を戻します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater가 %1$@ 후(%2$@)에 Mac을 음소거하고, %3$ld분 후에 볼륨을 복원합니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater slår av lyden på Macen din om %1$@ (kl. %2$@) og gjenoppretter volumet %3$ld min senere."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater dempt je Mac over %1$@ (om %2$@) en herstelt het volume %3$ld min later."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O QuietLater vai silenciar o seu Mac dentro de %1$@ (às %2$@) e repor o volume %3$ld min depois."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater tystar din Mac om %1$@ (kl. %2$@) och återställer volymen %3$ld min senare."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater 将在 %1$@ 后（%2$@）将你的 Mac 静音，并在 %3$ld 分钟后恢复音量。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater 將在 %1$@ 後（%2$@）將你的 Mac 靜音，並在 %3$ld 分鐘後恢復音量。"
+          }
+        }
+      }
+    },
+    "QuietLater will mute your Mac in %1$@ (at %2$@)." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater slår lyden fra på din Mac om %1$@ (kl. %2$@)."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater schaltet deinen Mac in %1$@ stumm (um %2$@)."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater silenciará tu Mac dentro de %1$@ (a las %2$@)."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater mykistää Macisi %1$@ kuluttua (klo %2$@)."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater coupera le son de votre Mac dans %1$@ (à %2$@)."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater disattiverà l'audio del tuo Mac tra %1$@ (alle %2$@)."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLaterは%1$@後（%2$@）にMacを消音します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater가 %1$@ 후(%2$@)에 Mac을 음소거합니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater slår av lyden på Macen din om %1$@ (kl. %2$@)."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater dempt je Mac over %1$@ (om %2$@)."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O QuietLater vai silenciar o seu Mac dentro de %1$@ (às %2$@)."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater tystar din Mac om %1$@ (kl. %2$@)."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater 将在 %1$@ 后（%2$@）将你的 Mac 静音。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater 將在 %1$@ 後（%2$@）將你的 Mac 靜音。"
+          }
+        }
+      }
+    },
+    "QuietLater will set volume to %1$ld%% at %2$@ and restore volume %3$ld min later." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater sætter lydstyrken til %1$ld %% kl. %2$@ og gendanner lydstyrken %3$ld min senere."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater setzt die Lautstärke um %2$@ auf %1$ld %% und stellt sie %3$ld Min. später wieder her."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater ajustará el volumen al %1$ld %% a las %2$@ y lo restaurará %3$ld min después."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater asettaa äänenvoimakkuudeksi %1$ld %% klo %2$@ ja palauttaa sen %3$ld min myöhemmin."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater réglera le volume sur %1$ld %% à %2$@ et le rétablira %3$ld min plus tard."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater imposterà il volume su %1$ld%% alle %2$@ e lo ripristinerà %3$ld min dopo."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLaterは%2$@に音量を%1$ld%%に設定し、%3$ld分後に元へ戻します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater가 %2$@에 볼륨을 %1$ld%%로 설정하고, %3$ld분 후에 복원합니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater setter volumet til %1$ld %% kl. %2$@ og gjenoppretter det %3$ld min senere."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater zet het volume om %2$@ op %1$ld%% en herstelt het %3$ld min later."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O QuietLater vai definir o volume para %1$ld%% às %2$@ e repô-lo %3$ld min depois."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater ställer volymen till %1$ld %% kl. %2$@ och återställer den %3$ld min senare."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater 将在 %2$@ 将音量设为 %1$ld%%，并在 %3$ld 分钟后恢复音量。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater 將在 %2$@ 將音量設為 %1$ld%%，並在 %3$ld 分鐘後恢復音量。"
+          }
+        }
+      }
+    },
+    "QuietLater will set volume to %1$ld%% at %2$@." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater sætter lydstyrken til %1$ld %% kl. %2$@."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater setzt die Lautstärke um %2$@ auf %1$ld %%."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater ajustará el volumen al %1$ld %% a las %2$@."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater asettaa äänenvoimakkuudeksi %1$ld %% klo %2$@."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater réglera le volume sur %1$ld %% à %2$@."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater imposterà il volume su %1$ld%% alle %2$@."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLaterは%2$@に音量を%1$ld%%に設定します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater가 %2$@에 볼륨을 %1$ld%%로 설정합니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater setter volumet til %1$ld %% kl. %2$@."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater zet het volume om %2$@ op %1$ld%%."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O QuietLater vai definir o volume para %1$ld%% às %2$@."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater ställer volymen till %1$ld %% kl. %2$@."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater 将在 %2$@ 将音量设为 %1$ld%%。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuietLater 將在 %2$@ 將音量設為 %1$ld%%。"
+          }
+        }
+      }
+    },
+    "Replace Timer" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erstat timer"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer ersetzen"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reemplazar temporizador"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korvaa ajastin"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remplacer le minuteur"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sostituisci timer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイマーを置き換える"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "타이머 바꾸기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erstatt timer"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer vervangen"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Substituir temporizador"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ersätt timer"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "替换计时器"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取代計時器"
+          }
+        }
+      }
+    },
+    "Restore after" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gendan efter"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wiederherstellen nach"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaurar después de"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palauta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rétablir après"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ripristina dopo"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "復元まで"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "복원 시점"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjenopprett etter"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herstellen na"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Repor após"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återställ efter"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复时间"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢復時間"
+          }
+        }
+      }
+    },
+    "Restore delay" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forsinkelse før gendannelse"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wiederherstellungsverzögerung"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retraso de restauración"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palautuksen viive"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Délai de rétablissement"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ritardo ripristino"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "復元までの時間"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "복원 지연"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forsinkelse før gjenoppretting"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herstelvertraging"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atraso da reposição"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återställningsfördröjning"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复延迟"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢復延遲"
+          }
+        }
+      }
+    },
+    "Restore Previous Volume" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gendan tidligere lydstyrke"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorherige Lautstärke wiederherstellen"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaurar volumen anterior"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palauta aiempi äänenvoimakkuus"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rétablir le volume précédent"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ripristina volume precedente"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "前の音量に戻す"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이전 볼륨 복원"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjenopprett forrige volum"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorig volume herstellen"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Repor volume anterior"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återställ tidigare volym"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复之前的音量"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢復先前的音量"
+          }
+        }
+      }
+    },
+    "Restore previous volume later" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gendan tidligere lydstyrke senere"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorherige Lautstärke später wiederherstellen"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaurar el volumen anterior más tarde"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palauta aiempi äänenvoimakkuus myöhemmin"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rétablir le volume précédent plus tard"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ripristina il volume precedente più tardi"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あとで元の音量に戻す"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "나중에 이전 볼륨 복원"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjenopprett forrige volum senere"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorige volume later herstellen"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Repor o volume anterior mais tarde"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återställ tidigare volym senare"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "稍后恢复之前的音量"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "稍後恢復先前的音量"
+          }
+        }
+      }
+    },
+    "Restored to %@." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gendannet til %@."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wiederhergestellt auf %@."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaurado a %@."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palautettu tasolle %@."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rétabli à %@."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ripristinato a %@."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ に戻しました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 상태로 복원했습니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjenopprettet til %@."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hersteld naar %@."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reposto para %@."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återställd till %@."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已恢复为 %@。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已恢復為 %@。"
+          }
+        }
+      }
+    },
+    "Restores volume to the level captured when you last started a timer or manual action" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gendanner lydstyrken til niveauet fra sidste timer eller manuelle handling"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stellt die Lautstärke auf den Stand der letzten Timer- oder Sofortaktion zurück"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaura el volumen al nivel guardado al iniciar el último temporizador o ajuste manual"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palauttaa äänenvoimakkuuden viimeisimmän ajastimen tai manuaalisen toiminnon tallentamaan tasoon"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rétablit le volume enregistré lors du dernier minuteur ou réglage manuel"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ripristina il volume al livello registrato con l'ultimo timer o intervento manuale"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最後にタイマーまたは手動操作を開始したときの音量に戻します"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "마지막으로 타이머나 수동 작업을 시작했을 때 저장된 볼륨으로 복원합니다"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjenoppretter volumet til nivået som ble lagret sist du startet en timer eller manuell handling"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herstelt het volume naar het niveau dat is vastgelegd bij je laatste timer of handmatige actie"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Repõe o volume para o nível guardado na última vez que iniciou um temporizador ou ação manual"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återställer volymen till nivån som sparades när du senast startade en timer eller manuell åtgärd"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将音量恢复到你上次启动计时器或手动操作时记录的级别"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "將音量恢復到你上次啟動計時器或手動操作時記錄的層級"
+          }
+        }
+      }
+    },
+    "Set volume to %ld%%" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sæt lydstyrken til %ld %%"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lautstärke auf %ld %% setzen"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustar el volumen al %ld %%"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aseta äänenvoimakkuudeksi %ld %%"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Régler le volume sur %ld %%"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imposta il volume su %ld%%"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音量を%ld%%にする"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "볼륨을 %ld%%로 설정"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sett volumet til %ld %%"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zet het volume op %ld%%"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Definir o volume para %ld%%"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ställ volymen på %ld %%"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将音量设为 %ld%%"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "將音量設為 %ld%%"
+          }
+        }
+      }
+    },
+    "Set volume to…" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sæt lydstyrke til…"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lautstärke festlegen…"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustar volumen a…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aseta äänenvoimakkuus…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Régler le volume sur…"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imposta volume su…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音量を設定…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "볼륨 설정…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sett volum til…"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume instellen op…"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Definir volume para…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ställ volym till…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置音量为…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定音量為…"
+          }
+        }
+      }
+    },
+    "Sets system volume to the selected level immediately" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sætter straks systemets lydstyrke til det valgte niveau"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setzt die Systemlautstärke sofort auf den gewählten Wert"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajusta de inmediato el volumen del sistema al nivel elegido"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asettaa järjestelmän äänenvoimakkuuden heti valitulle tasolle"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Règle immédiatement le volume du système au niveau choisi"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imposta subito il volume di sistema al livello scelto"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選択した音量をすぐにシステムへ適用します"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "선택한 볼륨을 즉시 시스템에 적용합니다"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setter systemvolumet til valgt nivå med en gang"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stelt het systeemvolume direct in op het gekozen niveau"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Define de imediato o volume do sistema para o nível selecionado"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ställer direkt in systemvolymen på vald nivå"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即将系统音量设为所选级别"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即將系統音量設為所選層級"
+          }
+        }
+      }
+    },
+    "Start Timer" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start timer"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer starten"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniciar temporizador"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käynnistä ajastin"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lancer le minuteur"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avvia timer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイマー開始"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "타이머 시작"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start timer"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer starten"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniciar temporizador"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starta timer"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开始计时"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開始計時"
+          }
+        }
+      }
+    },
+    "Starts the countdown with your selected settings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starter nedtællingen med dine valgte indstillinger"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Startet den Countdown mit den gewählten Einstellungen"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inicia la cuenta atrás con la configuración elegida"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käynnistää lähtölaskennan valituilla asetuksilla"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lance le compte à rebours avec vos réglages sélectionnés"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avvia il conto alla rovescia con le impostazioni selezionate"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選択した設定でカウントダウンを開始します"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "선택한 설정으로 카운트다운을 시작합니다"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starter nedtellingen med innstillingene du har valgt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start de aftelling met je gekozen instellingen"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inicia a contagem decrescente com as definições selecionadas"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Startar nedräkningen med dina valda inställningar"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "按你选择的设置开始倒计时"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "依照你選擇的設定開始倒數"
+          }
+        }
+      }
+    },
+    "Status: %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status: %@"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status: %@"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estado: %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tila: %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statut : %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stato: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ステータス: %@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "상태: %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status: %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status: %@"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estado: %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status: %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "状态：%@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "狀態：%@"
+          }
+        }
+      }
+    },
+    "Target volume" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mållydstyrke"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ziellautstärke"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volumen objetivo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tavoiteäänenvoimakkuus"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume cible"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume target"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目標音量"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "목표 볼륨"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Målvolum"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doelvolume"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume alvo"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Målvolym"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目标音量"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目標音量"
+          }
+        }
+      }
+    },
+    "Target volume: %ld percent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mållydstyrke: %ld procent"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ziellautstärke: %ld Prozent"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volumen objetivo: %ld por ciento"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tavoiteäänenvoimakkuus: %ld prosenttia"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume cible : %ld pour cent"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume target: %ld percento"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目標音量: %ldパーセント"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "목표 볼륨: %ld퍼센트"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Målvolum: %ld prosent"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doelvolume: %ld procent"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume alvo: %ld por cento"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Målvolym: %ld procent"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目标音量：%ld%%"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目標音量：%ld%%"
+          }
+        }
+      }
+    },
+    "Time remaining: %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resterende tid: %@"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbleibende Zeit: %@"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiempo restante: %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aikaa jäljellä: %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temps restant : %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tempo rimanente: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "残り時間: %@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "남은 시간: %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tid igjen: %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resterende tijd: %@"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tempo restante: %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tid kvar: %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "剩余时间：%@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "剩餘時間：%@"
+          }
+        }
+      }
+    },
+    "Timer action" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timerhandling"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer-Aktion"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acción del temporizador"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajastimen toiminto"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Action du minuteur"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Azione del timer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイマー動作"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "타이머 동작"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timerhandling"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timeractie"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ação do temporizador"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timeråtgärd"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "计时器操作"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "計時器操作"
+          }
+        }
+      }
+    },
+    "Timer cancelled." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer annulleret."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer abgebrochen."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporizador cancelado."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajastin peruutettu."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minuteur annulé."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer annullato."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイマーをキャンセルしました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "타이머를 취소했습니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer avbrutt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer geannuleerd."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporizador cancelado."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timern avbröts."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "计时已取消。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "計時已取消。"
+          }
+        }
+      }
+    },
+    "Volume" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lydstyrke"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lautstärke"
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volumen"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Äänenvoimakkuus"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音量"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "볼륨"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volum"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volym"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音量"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音量"
+          }
+        }
+      }
+    },
+    "Volume set to %1$ld%%. Restoring in %2$ld min." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lydstyrken er sat til %1$ld %%. Gendannes om %2$ld min."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lautstärke auf %1$ld %% gesetzt. Wiederherstellung in %2$ld Min."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volumen ajustado al %1$ld %%. Se restaurará en %2$ld min."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Äänenvoimakkuudeksi asetettiin %1$ld %%. Palautus %2$ld min kuluttua."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume réglé sur %1$ld %%. Rétablissement dans %2$ld min."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume impostato su %1$ld%%. Ripristino tra %2$ld min."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音量を%1$ld%%に設定しました。%2$ld分後に戻します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "볼륨을 %1$ld%%로 설정했습니다. %2$ld분 후에 복원합니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volumet er satt til %1$ld %%. Gjenopprettes om %2$ld min."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume ingesteld op %1$ld%%. Herstel over %2$ld min."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume definido para %1$ld%%. Reposição em %2$ld min."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volymen satt till %1$ld %%. Återställs om %2$ld min."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音量已设为 %1$ld%%。将在 %2$ld 分钟后恢复。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音量已設為 %1$ld%%。將在 %2$ld 分鐘後恢復。"
+          }
+        }
+      }
+    },
+    "Volume set to %ld%%." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lydstyrken er sat til %ld %%."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lautstärke auf %ld %% gesetzt."
+          }
+        },
+        "es-ES" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volumen ajustado al %ld %%."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Äänenvoimakkuudeksi asetettiin %ld %%."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume réglé sur %ld %%."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume impostato su %ld%%."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音量を%ld%%に設定しました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "볼륨을 %ld%%로 설정했습니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volumet er satt til %ld %%."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume ingesteld op %ld%%."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume definido para %ld%%."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volymen satt till %ld %%."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音量已设为 %ld%%。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音量已設為 %ld%%。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -43,7 +43,7 @@ struct ContentView: View {
 
     private var header: some View {
         VStack(alignment: .leading, spacing: 4) {
-            Text("QuietLater")
+            Text(verbatim: "QuietLater")
                 .font(.system(.title2, design: .rounded, weight: .semibold))
             Text("Lower your volume, on time.")
                 .font(.subheadline)
@@ -69,7 +69,7 @@ struct ContentView: View {
             Spacer()
         }
         .animation(.easeInOut(duration: 0.2), value: vm.statusMessage)
-        .accessibilityLabel("Status: \(vm.statusMessage)")
+        .accessibilityLabel(String(format: NSLocalizedString("Status: %@", comment: "Accessibility label for status bar; %@ = status message"), vm.statusMessage))
     }
 
     private var statusDotColor: Color {

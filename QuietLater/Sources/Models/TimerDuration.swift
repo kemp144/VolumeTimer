@@ -14,9 +14,12 @@ enum TimerDuration: Hashable, Identifiable {
 
     var label: String {
         switch self {
-        case .minutes(let m) where m < 60: return "\(m)m"
-        case .minutes(let m): return "\(m / 60)h"
-        case .custom: return "Custom"
+        case .minutes(let m) where m < 60:
+            return String(format: NSLocalizedString("%ldm", comment: "Duration chip label: X minutes, e.g. '15m'"), m)
+        case .minutes(let m):
+            return String(format: NSLocalizedString("%ldh", comment: "Duration chip label: X hours, e.g. '1h'"), m / 60)
+        case .custom:
+            return NSLocalizedString("Custom", comment: "Duration chip label: custom duration")
         }
     }
 

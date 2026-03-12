@@ -8,7 +8,7 @@ struct DurationChip: View {
 
     var body: some View {
         Button(action: action) {
-            Text(duration.label)
+            Text(verbatim: duration.label)
                 .font(.system(.subheadline, design: .rounded).weight(.medium))
                 .foregroundStyle(isSelected ? Color.white : Color.primary)
                 .padding(.horizontal, 14)
@@ -21,7 +21,7 @@ struct DurationChip: View {
                 )
         }
         .buttonStyle(.plain)
-        .accessibilityLabel("\(duration.label) preset")
+        .accessibilityLabel(String(format: NSLocalizedString("%@ preset", comment: "Accessibility label for duration chip button; %@ = duration label, e.g. '15m'"), duration.label))
         .accessibilityAddTraits(isSelected ? .isSelected : [])
     }
 }

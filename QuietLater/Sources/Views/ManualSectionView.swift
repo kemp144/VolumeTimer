@@ -16,14 +16,14 @@ struct ManualSectionView: View {
                     Text("Volume")
                         .font(.subheadline)
                     Spacer()
-                    Text("\(Int(vm.manualVolumePercent.rounded()))%")
+                    Text(verbatim: String(format: NSLocalizedString("%ld%%", comment: "Volume state: percentage only, e.g. '40%'"), Int(vm.manualVolumePercent.rounded())))
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                         .monospacedDigit()
                         .frame(width: 40, alignment: .trailing)
                 }
                 Slider(value: $vm.manualVolumePercent, in: 0...100, step: 1)
-                    .accessibilityLabel("Immediate volume: \(Int(vm.manualVolumePercent.rounded())) percent")
+                    .accessibilityLabel(String(format: NSLocalizedString("Immediate volume: %ld percent", comment: "Accessibility label for immediate volume slider; %ld = percentage"), Int(vm.manualVolumePercent.rounded())))
             }
 
             HStack(spacing: 10) {

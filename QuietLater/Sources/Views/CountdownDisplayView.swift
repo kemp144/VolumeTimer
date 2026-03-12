@@ -13,7 +13,7 @@ struct CountdownDisplayView: View {
                 .foregroundStyle(isFading ? Color.orange : Color.primary)
                 .contentTransition(.numericText(countsDown: true))
                 .animation(.easeInOut(duration: 0.2), value: formatted)
-                .accessibilityLabel("Time remaining: \(formatted)")
+                .accessibilityLabel(String(format: NSLocalizedString("Time remaining: %@", comment: "Accessibility label for countdown timer; %@ = formatted time string"), formatted))
 
             if isFading {
                 HStack(spacing: 4) {

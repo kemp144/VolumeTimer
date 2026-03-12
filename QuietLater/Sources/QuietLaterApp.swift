@@ -19,7 +19,7 @@ struct QuietLaterApp: App {
                         options: [
                             .applicationName: "QuietLater",
                             .credits: NSAttributedString(
-                                string: "A calm, focused utility for controlling your Mac's volume — now or after a timer.",
+                                string: NSLocalizedString("A calm, focused utility for controlling your Mac's volume — now or after a timer.", comment: "About panel credits text"),
                                 attributes: [.font: NSFont.systemFont(ofSize: NSFont.smallSystemFontSize)]
                             ),
                             .version: ""

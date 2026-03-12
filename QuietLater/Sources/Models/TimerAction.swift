@@ -9,8 +9,10 @@ enum TimerAction: Equatable {
 
     var displayName: String {
         switch self {
-        case .mute: return "Mute"
-        case .setVolume(let v): return "Set volume to \(Int(v * 100))%"
+        case .mute:
+            return NSLocalizedString("Mute", comment: "Timer action: mute the system audio")
+        case .setVolume(let v):
+            return String(format: NSLocalizedString("Set volume to %ld%%", comment: "Timer action display name; %ld = integer percentage"), Int(v * 100))
         }
     }
 
@@ -25,8 +27,17 @@ enum TimerAction: Equatable {
 
 /// Identifies the action type for use with Picker / RadioGroup bindings.
 enum TimerActionKind: String, CaseIterable, Identifiable {
-    case mute = "Mute"
-    case setVolume = "Set volume to…"
+    case mute
+    case setVolume
 
-    var id: String { rawValue }
+    var id: Self { self }
+
+    var localizedTitle: String {
+        switch self {
+        case .mute:
+            return NSLocalizedString("Mute", comment: "Action picker option: mute the system audio")
+        case .setVolume:
+            return NSLocalizedString("Set volume to…", comment: "Action picker option: set the system volume to a target level")
+        }
+    }
 }

@@ -44,7 +44,7 @@ final class QuietLaterViewModel: ObservableObject {
 
     // MARK: - Status
 
-    @Published private(set) var statusMessage: String = "QuietLater lowers your volume, on time."
+    @Published private(set) var statusMessage: String = NSLocalizedString("QuietLater lowers your volume, on time.", comment: "Initial status message shown at launch")
 
     // MARK: - Dependencies
 
@@ -86,7 +86,7 @@ final class QuietLaterViewModel: ObservableObject {
 
         let duration = resolvedDuration()
         guard duration > 0 else {
-            statusMessage = "Please enter a valid duration."
+            statusMessage = NSLocalizedString("Please enter a valid duration.", comment: "Validation error when custom duration is zero")
             return
         }
 
@@ -127,7 +127,7 @@ final class QuietLaterViewModel: ObservableObject {
                 self.statusMessage = self.completionMessage()
             case .cancelled:
                 self.runState = .idle
-                self.statusMessage = "Timer cancelled."
+                self.statusMessage = NSLocalizedString("Timer cancelled.", comment: "Status when the user cancels the timer")
             case .running:
                 break
             }
@@ -149,7 +149,7 @@ final class QuietLaterViewModel: ObservableObject {
         countdown = nil
         if isTimerRunning || runState == .completed {
             runState = .idle
-            statusMessage = "Timer cancelled."
+            statusMessage = NSLocalizedString("Timer cancelled.", comment: "Status when the user cancels the timer")
         }
     }
 
@@ -158,7 +158,7 @@ final class QuietLaterViewModel: ObservableObject {
     func muteNow() {
         captureStateIfNeeded()
         audio.setMuted(true)
-        statusMessage = "Muted now."
+        statusMessage = NSLocalizedString("Muted now.", comment: "Status after manually muting audio")
     }
 
     func applyVolumeNow() {
@@ -166,13 +166,13 @@ final class QuietLaterViewModel: ObservableObject {
         let vol = Float(manualVolumePercent / 100)
         audio.setMuted(false)
         audio.setVolume(vol)
-        statusMessage = "Volume set to \(Int(manualVolumePercent.rounded()))%."
+        statusMessage = String(format: NSLocalizedString("Volume set to %ld%%.", comment: "Status after manually setting volume; %ld = integer percentage"), Int(manualVolumePercent.rounded()))
     }
 
     func restorePreviousVolume() {
         guard let state = capturedState else { return }
         audio.applyState(state)
-        statusMessage = "Restored to \(state.displayString)."
+        statusMessage = String(format: NSLocalizedString("Restored to %@.", comment: "Status after restoring volume; %@ = volume display string, e.g. '40%'"), state.displayString)
     }
 
     // MARK: - Helpers
@@ -207,21 +207,21 @@ final class QuietLaterViewModel: ObservableObject {
         switch actionKind {
         case .mute:
             if restoreEnabled {
-                statusMessage = "QuietLater will mute your Mac in \(durStr) (at \(endStr)) and restore volume \(restoreDelayMinutes) min later."
+                statusMessage = String(format: NSLocalizedString("QuietLater will mute your Mac in %1$@ (at %2$@) and restore volume %3$ld min later.", comment: "Timer status: mute with restore. %1$@ = duration string, %2$@ = clock time, %3$ld = restore delay minutes"), durStr, endStr, restoreDelayMinutes)
             } else {
-                statusMessage = "QuietLater will mute your Mac in \(durStr) (at \(endStr))."
+                statusMessage = String(format: NSLocalizedString("QuietLater will mute your Mac in %1$@ (at %2$@).", comment: "Timer status: mute. %1$@ = duration string, %2$@ = clock time"), durStr, endStr)
             }
         case .setVolume:
             let pct = Int(targetVolumePercent.rounded())
             if restoreEnabled {
-                statusMessage = "QuietLater will set volume to \(pct)% at \(endStr) and restore volume \(restoreDelayMinutes) min later."
+                statusMessage = String(format: NSLocalizedString("QuietLater will set volume to %1$ld%% at %2$@ and restore volume %3$ld min later.", comment: "Timer status: set volume with restore. %1$ld = percentage, %2$@ = clock time, %3$ld = restore delay minutes"), pct, endStr, restoreDelayMinutes)
             } else {
-                statusMessage = "QuietLater will set volume to \(pct)% at \(endStr)."
+                statusMessage = String(format: NSLocalizedString("QuietLater will set volume to %1$ld%% at %2$@.", comment: "Timer status: set volume. %1$ld = percentage, %2$@ = clock time"), pct, endStr)
             }
         }
 
         if case .fadingOut = runState {
-            statusMessage = "Fading out… " + statusMessage
+            statusMessage = String(format: NSLocalizedString("Fading out… %@", comment: "Status prefix when volume is fading out; %@ = existing status message"), statusMessage)
         }
     }
 
@@ -229,13 +229,13 @@ final class QuietLaterViewModel: ObservableObject {
         switch actionKind {
         case .mute:
             return restoreEnabled
-                ? "Muted. Volume will restore in \(restoreDelayMinutes) min."
-                : "Muted."
+                ? String(format: NSLocalizedString("Muted. Volume will restore in %ld min.", comment: "Completion status: muted with restore; %ld = restore delay minutes"), restoreDelayMinutes)
+                : NSLocalizedString("Muted.", comment: "Completion status: muted")
         case .setVolume:
             let pct = Int(targetVolumePercent.rounded())
             return restoreEnabled
-                ? "Volume set to \(pct)%. Restoring in \(restoreDelayMinutes) min."
-                : "Volume set to \(pct)%."
+                ? String(format: NSLocalizedString("Volume set to %1$ld%%. Restoring in %2$ld min.", comment: "Completion status: volume set with restore; %1$ld = percentage, %2$ld = restore delay minutes"), pct, restoreDelayMinutes)
+                : String(format: NSLocalizedString("Volume set to %ld%%.", comment: "Completion status: volume set; %ld = integer percentage"), pct)
         }
     }
 
@@ -246,9 +246,11 @@ final class QuietLaterViewModel: ObservableObject {
         let m = total / 60
         let s = total % 60
         if m > 0 {
-            return s == 0 ? "\(m) min" : "\(m):\(String(format: "%02d", s))"
+            return s == 0
+                ? String(format: NSLocalizedString("%ld min", comment: "Duration display: whole minutes; %ld = number of minutes"), m)
+                : "\(m):\(String(format: "%02d", s))"
         }
-        return "\(s) sec"
+        return String(format: NSLocalizedString("%ld sec", comment: "Duration display: seconds only; %ld = number of seconds"), s)
     }
 
     func formattedCountdown(_ seconds: TimeInterval) -> String {
