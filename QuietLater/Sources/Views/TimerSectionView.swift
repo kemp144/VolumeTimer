@@ -54,6 +54,25 @@ struct TimerSectionView: View {
                             .foregroundStyle(.secondary)
                     }
                 }
+                .onChange(of: vm.fadeOutEnabled) { enabled in
+                    if enabled {
+                        vm.gradualFadeUntilEndEnabled = false
+                    }
+                }
+
+                Toggle(isOn: $vm.gradualFadeUntilEndEnabled) {
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("Reduce volume gradually until the timer ends")
+                        Text("Keep lowering the volume to 0% across the full countdown")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
+                }
+                .onChange(of: vm.gradualFadeUntilEndEnabled) { enabled in
+                    if enabled {
+                        vm.fadeOutEnabled = false
+                    }
+                }
 
                 Toggle(isOn: $vm.restoreEnabled) {
                     VStack(alignment: .leading, spacing: 2) {

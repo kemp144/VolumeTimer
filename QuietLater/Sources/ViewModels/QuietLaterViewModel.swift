@@ -30,6 +30,7 @@ final class QuietLaterViewModel: ObservableObject {
     @Published var actionKind: TimerActionKind = .mute
     @Published var targetVolumePercent: Double = 40  // 0–100, used when actionKind == .setVolume
     @Published var fadeOutEnabled: Bool = false
+    @Published var gradualFadeUntilEndEnabled: Bool = false
     @Published var restoreEnabled: Bool = false
     @Published var restoreDelayMinutes: Int = 15
 
@@ -97,7 +98,7 @@ final class QuietLaterViewModel: ObservableObject {
         let config = CountdownConfiguration(
             duration:      duration,
             action:        action,
-            fadeOut:       fadeOutEnabled,
+            fadeMode:      resolvedFadeMode(),
             restoreDelay:  restoreEnabled ? TimeInterval(restoreDelayMinutes * 60) : nil,
             capturedState: state
         )
@@ -139,7 +140,9 @@ final class QuietLaterViewModel: ObservableObject {
             self.statusMessage = self.completionMessage()
         }
 
-        runState = .running(remaining: duration)
+        runState = resolvedFadeMode() == .fullDuration
+            ? .fadingOut(remaining: duration)
+            : .running(remaining: duration)
         updateStatusMessage()
         timer.start()
     }
@@ -196,6 +199,12 @@ final class QuietLaterViewModel: ObservableObject {
         if capturedState == nil {
             capturedState = audio.currentState()
         }
+    }
+
+    private func resolvedFadeMode() -> FadeMode {
+        if gradualFadeUntilEndEnabled { return .fullDuration }
+        if fadeOutEnabled { return .last30Seconds }
+        return .none
     }
 
     private func updateStatusMessage() {

@@ -5432,6 +5432,44 @@
           }
         }
       }
+    },
+    "Reduce volume gradually until the timer ends" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : { "stringUnit" : { "state" : "translated", "value" : "Sænk lydstyrken gradvist, indtil timeren slutter" } },
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Lautstärke bis zum Timerende schrittweise senken" } },
+        "es-ES" : { "stringUnit" : { "state" : "translated", "value" : "Reducir el volumen gradualmente hasta que termine el temporizador" } },
+        "fi" : { "stringUnit" : { "state" : "translated", "value" : "Laske äänenvoimakkuutta vähitellen ajastimen loppuun asti" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Réduire progressivement le volume jusqu'à la fin du minuteur" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Riduci gradualmente il volume fino alla fine del timer" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "タイマー終了まで徐々に音量を下げる" } },
+        "ko" : { "stringUnit" : { "state" : "translated", "value" : "타이머가 끝날 때까지 볼륨을 서서히 낮추기" } },
+        "nb" : { "stringUnit" : { "state" : "translated", "value" : "Senk volumet gradvis helt til timeren er ferdig" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Volume geleidelijk verlagen tot de timer afloopt" } },
+        "pt-PT" : { "stringUnit" : { "state" : "translated", "value" : "Reduzir gradualmente o volume até o temporizador terminar" } },
+        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Sänk volymen gradvis tills timern tar slut" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "在计时结束前持续逐渐降低音量" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "在計時結束前持續逐漸降低音量" } }
+      }
+    },
+    "Keep lowering the volume to 0% across the full countdown" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : { "stringUnit" : { "state" : "translated", "value" : "Bliv ved med at sænke lydstyrken til 0 % gennem hele nedtællingen" } },
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Senkt die Lautstärke während des gesamten Countdowns weiter bis auf 0 %" } },
+        "es-ES" : { "stringUnit" : { "state" : "translated", "value" : "Sigue bajando el volumen hasta el 0 % durante toda la cuenta atrás" } },
+        "fi" : { "stringUnit" : { "state" : "translated", "value" : "Laske äänenvoimakkuutta koko ajastuksen ajan aina 0 %:iin asti" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Continue de baisser le volume jusqu'à 0 % pendant tout le compte à rebours" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Continua a ridurre il volume fino allo 0% per tutta la durata del conto alla rovescia" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "カウントダウン全体を通して音量を0%まで下げ続けます" } },
+        "ko" : { "stringUnit" : { "state" : "translated", "value" : "카운트다운 내내 볼륨을 계속 낮춰 0%까지 줄입니다" } },
+        "nb" : { "stringUnit" : { "state" : "translated", "value" : "Fortsett å senke volumet til 0 % gjennom hele nedtellingen" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Blijf het volume tijdens de hele aftelling verlagen tot 0%" } },
+        "pt-PT" : { "stringUnit" : { "state" : "translated", "value" : "Continue a reduzir o volume até 0% ao longo de toda a contagem decrescente" } },
+        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Fortsätt sänka volymen till 0 % under hela nedräkningen" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "在整个倒计时期间持续将音量降低到 0%" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "在整個倒數期間持續將音量降低到 0%" } }
+      }
     }
   },
   "version" : "1.0"

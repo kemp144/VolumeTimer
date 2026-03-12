@@ -17,9 +17,15 @@ import Foundation
 struct CountdownConfiguration {
     let duration:        TimeInterval     // total seconds for the countdown
     let action:          TimerAction      // what to do when time is up
-    let fadeOut:         Bool             // gradually lower volume in last 30 s
+    let fadeMode:        FadeMode         // how volume should fade before the timer ends
     let restoreDelay:    TimeInterval?    // nil = no restore; else seconds after action
     let capturedState:   VolumeState?     // the state to restore (captured at timer start)
+}
+
+enum FadeMode: Equatable {
+    case none
+    case last30Seconds
+    case fullDuration
 }
 
 // MARK: - Phase
@@ -50,6 +56,8 @@ final class CountdownTimer {
 
     /// Volume at the moment the fade started (so the fade originates from reality).
     private var fadeStartVolume: Float = 0
+    private var fadeStartRemaining: TimeInterval = 0
+    private var fadeDuration: TimeInterval = 0
 
     static let fadeWindow: TimeInterval = 30  // seconds before end where fade begins
     static let tickInterval: TimeInterval = 0.5
@@ -64,6 +72,11 @@ final class CountdownTimer {
 
     func start() {
         phase = .running
+        if config.fadeMode == .fullDuration {
+            beginFade(duration: max(config.duration, Self.tickInterval))
+            phase = .fadingOut
+            onPhase?(.fadingOut)
+        }
         scheduleTickTimer()
     }
 
@@ -97,12 +110,9 @@ final class CountdownTimer {
             return
         }
 
-        // Transition to fade-out phase if applicable.
-        if config.fadeOut,
-           phase == .running,
-           remaining <= Self.fadeWindow {
+        if shouldStartLast30SecondFade {
+            beginFade(duration: min(Self.fadeWindow, remaining))
             phase = .fadingOut
-            fadeStartVolume = audio.currentState()?.volume ?? 1.0
             onPhase?(.fadingOut)
         }
 
@@ -113,10 +123,9 @@ final class CountdownTimer {
     }
 
     private func applyFadeStep() {
-        guard remaining > 0 else { return }
-        // Linear interpolation: volume decreases from fadeStartVolume → 0
-        // over fadeWindow seconds. We use remaining (capped to fadeWindow) as the key.
-        let progress  = 1.0 - min(remaining, Self.fadeWindow) / Self.fadeWindow
+        guard phase == .fadingOut, remaining > 0, fadeDuration > 0 else { return }
+        let elapsed = min(fadeDuration, max(0, fadeStartRemaining - remaining))
+        let progress = elapsed / fadeDuration
         let newVolume = fadeStartVolume * Float(1.0 - progress)
         audio.setVolume(max(0, newVolume))
     }
@@ -133,7 +142,7 @@ final class CountdownTimer {
             audio.setVolume(v)
             // If fading out to a non-zero target, the fade ended at 0;
             // now jump to the requested target level.
-            if config.fadeOut { audio.setMuted(false) }
+            if config.fadeMode != .none { audio.setMuted(false) }
         }
 
         onPhase?(.completed)
@@ -157,6 +166,18 @@ final class CountdownTimer {
         tickTimer = nil
         restoreTimer?.invalidate()
         restoreTimer = nil
+    }
+
+    private var shouldStartLast30SecondFade: Bool {
+        config.fadeMode == .last30Seconds &&
+        phase == .running &&
+        remaining <= Self.fadeWindow
+    }
+
+    private func beginFade(duration: TimeInterval) {
+        fadeStartVolume = audio.currentState()?.volume ?? 1.0
+        fadeStartRemaining = remaining
+        fadeDuration = max(duration, Self.tickInterval)
     }
 
     deinit {

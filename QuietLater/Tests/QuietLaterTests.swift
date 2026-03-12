@@ -229,7 +229,7 @@ final class CountdownTimerLogicTests: XCTestCase {
         let config  = CountdownConfiguration(
             duration:      0.5,    // short duration for testing
             action:        .mute,
-            fadeOut:       false,
+            fadeMode:      .none,
             restoreDelay:  nil,
             capturedState: nil
         )
@@ -248,7 +248,7 @@ final class CountdownTimerLogicTests: XCTestCase {
         let config  = CountdownConfiguration(
             duration:      5.0,
             action:        .mute,
-            fadeOut:       false,
+            fadeMode:      .none,
             restoreDelay:  nil,
             capturedState: nil
         )
@@ -278,7 +278,7 @@ final class CountdownTimerLogicTests: XCTestCase {
         let config  = CountdownConfiguration(
             duration:      1.5,
             action:        .setVolume(0.5),
-            fadeOut:       false,
+            fadeMode:      .none,
             restoreDelay:  nil,
             capturedState: nil
         )
@@ -306,7 +306,7 @@ final class CountdownTimerLogicTests: XCTestCase {
         let config  = CountdownConfiguration(
             duration:      20.0,
             action:        .mute,
-            fadeOut:       true,
+            fadeMode:      .last30Seconds,
             restoreDelay:  nil,
             capturedState: nil
         )
@@ -337,7 +337,7 @@ final class CountdownTimerLogicTests: XCTestCase {
 //   [ ] Select 60m — timer starts and counts down from 60:00
 //
 // CUSTOM TIMER
-//   [ ] Select Custom — duration input (Stepper) appears
+//   [ ] Select Custom — duration input appears
 //   [ ] Set custom duration to 3 minutes — timer counts down from 3:00
 //   [ ] Set custom duration to 0 — "Please enter a valid duration." shown, no timer started
 //
