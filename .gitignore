@@ -60,3 +60,10 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Local macOS / Xcode artifacts
+.DS_Store
+**/.DS_Store
+.deriveddata/
+DerivedData/
+*.xcresult
