@@ -67,3 +67,8 @@ fastlane/test_output
 .deriveddata/
 DerivedData/
 *.xcresult
+
+# Node (used for screenshot rendering)
+node_modules/
+package.json
+package-lock.json
