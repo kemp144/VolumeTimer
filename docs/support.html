@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QuietLater Support</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0f1115;
+      --panel: #171a21;
+      --text: #f5f7fb;
+      --muted: #a9b0bd;
+      --accent: #2f81f7;
+      --border: rgba(255, 255, 255, 0.08);
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f5f7fb;
+        --panel: #ffffff;
+        --text: #111827;
+        --muted: #5b6472;
+        --accent: #1668e3;
+        --border: rgba(17, 24, 39, 0.08);
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-rounded, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(47, 129, 247, 0.18), transparent 28%),
+        var(--bg);
+      color: var(--text);
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 42px 20px 72px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 18px 60px rgba(0, 0, 0, 0.18);
+    }
+    h1, h2 {
+      margin: 0 0 12px;
+      line-height: 1.08;
+    }
+    h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
+    h2 { font-size: 1.1rem; margin-top: 28px; }
+    p, li {
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.68;
+    }
+    ul {
+      margin: 10px 0 0;
+      padding-left: 18px;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .meta {
+      margin-top: 8px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <a href="./index.html">QuietLater</a>
+      <h1>Support</h1>
+      <p class="meta">QuietLater for macOS</p>
+
+      <p>
+        QuietLater helps you mute your Mac, reduce volume over time, and restore the previous volume later.
+      </p>
+
+      <h2>Need Help?</h2>
+      <p>
+        If you have questions, found a bug, or want to report an issue, contact:
+        <a href="mailto:your@email.com">your@email.com</a>
+      </p>
+
+      <h2>Quick Notes</h2>
+      <ul>
+        <li>QuietLater controls the current default system output device.</li>
+        <li>If you replace an active timer, the existing timer is cancelled and the new one starts immediately.</li>
+        <li>If the app is quit while a timer is running, the timer does not continue in the background after relaunch.</li>
+      </ul>
+
+      <h2>Troubleshooting</h2>
+      <ul>
+        <li>Make sure your Mac has an active output device selected.</li>
+        <li>If you switch audio devices, test again on the newly selected default output device.</li>
+        <li>For timer-related issues, include your macOS version and a short description of the exact steps.</li>
+      </ul>
+
+      <h2>Privacy</h2>
+      <p>
+        QuietLater is designed to work locally and does not collect personal data through the app.
+        Read the <a href="./privacy.html">Privacy Policy</a>.
+      </p>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QuietLater</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0f1115;
+      --panel: #171a21;
+      --text: #f5f7fb;
+      --muted: #a9b0bd;
+      --accent: #2f81f7;
+      --border: rgba(255, 255, 255, 0.08);
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f5f7fb;
+        --panel: #ffffff;
+        --text: #111827;
+        --muted: #5b6472;
+        --accent: #1668e3;
+        --border: rgba(17, 24, 39, 0.08);
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-rounded, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(47, 129, 247, 0.18), transparent 32%),
+        radial-gradient(circle at bottom right, rgba(72, 187, 120, 0.12), transparent 28%),
+        var(--bg);
+      color: var(--text);
+    }
+    .wrap {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 18px 60px rgba(0, 0, 0, 0.18);
+    }
+    h1, h2 {
+      margin: 0 0 12px;
+      line-height: 1.08;
+    }
+    h1 { font-size: clamp(2.4rem, 6vw, 4.2rem); }
+    h2 { font-size: 1.25rem; margin-top: 28px; }
+    p, li {
+      color: var(--muted);
+      font-size: 1.03rem;
+      line-height: 1.65;
+    }
+    .lede {
+      max-width: 40rem;
+      font-size: 1.12rem;
+    }
+    ul {
+      margin: 10px 0 0;
+      padding-left: 18px;
+    }
+    .links {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 24px;
+    }
+    a.button, a.textlink {
+      text-decoration: none;
+    }
+    a.button {
+      display: inline-block;
+      padding: 12px 16px;
+      border-radius: 12px;
+      background: var(--accent);
+      color: white;
+      font-weight: 600;
+    }
+    a.textlink {
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .footer {
+      margin-top: 18px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1>QuietLater</h1>
+      <p class="lede">
+        QuietLater is a calm Mac utility that lets you mute your Mac, set a target volume, fade the volume down, and optionally restore the previous volume later.
+      </p>
+
+      <h2>What It Does</h2>
+      <ul>
+        <li>Mute your Mac immediately or after a timer</li>
+        <li>Set system volume to a chosen percentage</li>
+        <li>Fade volume down during the countdown</li>
+        <li>Restore the previous volume after a delay</li>
+      </ul>
+
+      <div class="links">
+        <a class="button" href="./support.html">Support</a>
+        <a class="button" href="./privacy.html">Privacy Policy</a>
+      </div>
+
+      <p class="footer">
+        QuietLater works locally on your Mac and is designed to stay simple, focused, and private.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
